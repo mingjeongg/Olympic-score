@@ -1,0 +1,52 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form {
+  display: flex;
+  gap: 20px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+/* button-group 안에 있는 버튼 */
+.button-group button {
+  /* 위아래 10px 양옆 12px */
+  padding: 10px 12px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.table-wrapper {
+  width: 100%;
+}
+
+/* table-wrapper 안에 있는 table tag css - . 안씀 */
+table {
+  margin: auto;
+  text-align: center;
+}
+
+/* table 안에 th랑 td css */
+th,
+td {
+  padding: 10px;
+}
+
+/* table 안에 th css */
+th {
+  /* 국가이름이 길어 질 수도 있으니 최소를 100으로 */
+  min-width: 100px;
+}
